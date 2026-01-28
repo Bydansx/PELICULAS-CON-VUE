@@ -62,9 +62,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
+
 .container {
   padding: 20px;
-  max-width: 1200px;
   margin: 0 auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -79,11 +79,11 @@ onMounted(() => {
 }
 
 h1 {
-  color: #2c3e50;
+  color: #ffffff;
   margin: 0;
 }
 
-/* Paginación */
+
 .pagination {
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@ h1 {
 .btn-nav {
   padding: 8px 16px;
   border: none;
-  background-color: #42b883;
+  background-color: #880f0f;
   color: white;
   border-radius: 6px;
   cursor: pointer;
@@ -102,11 +102,11 @@ h1 {
 }
 
 .btn-nav:hover:not(:disabled) {
-  background-color: #35495e;
+  background-color: #880f0f;
 }
 
 .btn-nav:disabled {
-  background-color: #ccc;
+  background-color: #880f0f;
   cursor: not-allowed;
 }
 
@@ -121,7 +121,7 @@ h1 {
 }
 
 .movie-card {
-  background: #fff;
+  background: #201e1e;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -172,12 +172,12 @@ h1 {
   font-weight: bold;
   margin: 0 0 5px 0;
   font-size: 1rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .movie-date {
   font-size: 0.85rem;
-  color: #7f8c8d;
+  color: #ffffff;
   margin: 0;
 }
 </style>
